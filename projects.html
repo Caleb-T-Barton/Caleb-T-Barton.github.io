@@ -94,20 +94,31 @@
         <div id="carouselGNS3" class="carousel slide">
             <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/lora/sensor_gateway.jpg" class="d-block w-100" alt="...">
-                <p class="fs-6">This picture demonstrates what this will look like when deployed. A LoRa network gateway will connect arudino nodes over the LoRa protocol. (915MHz in the United States)</p>
+                <img src="images/BGP_with_OSPF_route_redistribution/ospf_bgp_topo.png" class="d-block w-100" alt="...">
+                <p class="fs-6">This screenshot shows a network topology using layer 3 capable switches in GNS3. The goal of this setup is to have OSPF routing in individual Autonomous systems and to route traffic between them using BGP with OSPF route distribution.</p>
             </div>
             <div class="carousel-item">
-                <img src="images/lora/gateway.jpg" class="d-block w-100" alt="...">
-                <p class="fs-6">This is a LoRa gateway. This device captures frames sent from arduino nodes and forwards them over a backhaul network. In our case using fiber optic cabling. Could be implemented with cellular networks, or WiFi. </p>
+                <img src="images/BGP_with_OSPF_route_redistribution/ESW3.png" class="d-block w-100" alt="...">
+                <p class="fs-6"></p>
+            <div class="carousel-item">
+                <img src="images/BGP_with_OSPF_route_redistribution/ESW1.png" class="d-block w-100" alt="...">
+                <p class="fs-6">Routing table of BGP router ESW1.</p>
             </div>
             <div class="carousel-item">
-                <img src="images/lora/arduino_.jpg" class="d-block w-100" alt="...">
-                <p class="fs-6">The arduino board used to work with the motion detection sensor and the LoRa protocol. We developed an alogrithm that would accurately count the number of users that passed by the sensors. This device uses extremely low power, and runs completely off solar power.</p>
+                <img src="images/BGP_with_OSPF_route_redistribution/ESW2.png" class="d-block w-100" alt="...">
+                <p class="fs-6">Routing table of BGP router ESW2.</p>
             </div>
             <div class="carousel-item">
-                <img src="images/lora/microwave_sensor_.jpg" class="d-block w-100" alt="...">
-                <p class="fs-6">The microwave sensor that we used to detect people as they walk by. Connects to the arduino board using GPIO pins.</p>
+                <img src="images/BGP_with_OSPF_route_redistribution/ESW4.png" class="d-block w-100" alt="...">
+                <p class="fs-6">Routing table of OSPF router ESW2.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/BGP_with_OSPF_route_redistribution/host1_ping_host2.png" class="d-block w-100" alt="...">
+                <p class="fs-6">Host 1 pings host 2 successfully.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/BGP_with_OSPF_route_redistribution/host2_pings_host1.png" class="d-block w-100" alt="...">
+                <p class="fs-6">Host 2 pings host 1 successfully.</p>
             </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselGNS3" data-bs-slide="prev">
@@ -144,7 +155,7 @@
             <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/ansible/gns3_topo.png" class="d-block w-100" alt="...">
-                <p class="fs-6">The topology that I setup to perform network automation using Ansible</p>
+                <p class="fs-6">The topology that I setup to perform network automation using Ansible.</p>
             </div>
             <div class="carousel-item">
                 <img src="images/lora/gateway.jpg" class="d-block w-100" alt="...">
